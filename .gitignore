@@ -38,3 +38,7 @@ jspm_packages
 
 # Vim Swap file
 *.swp
+
+# Bundle build
+build
+public/bundle.js

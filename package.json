@@ -6,7 +6,8 @@
   "scripts": {
     "test": "webpack-dev-server --hot --host 0.0.0.0",
     "development": "cross-env NODE_ENV=development nodemon --exec babel-node --presets=es2015,node6,stage-0 ./server/index.js --watch server",
-    "build": "babel server --out-dir build --presets=es2015,node6,stage-0 && webpack"
+    "build": "babel server --out-dir build --presets=es2015,node6,stage-0 && webpack",
+    "start": "node ./build/index.js"
   },
   "repository": {
     "type": "git",
