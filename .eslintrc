@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "_": true,
+    "$": true,
+  },
+  "rules": {
+    "max-len": 0
+  }
+}
